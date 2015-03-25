@@ -1,0 +1,17 @@
+## 1. Making the tests pass
+I had trouble getting the phpunit to run as it couldn't find the autoload.php file.
+(Not sure if I had something wrong there, but for the sake of completing the exercise I added another path at phpunit line 38.)
+Apart from that this section is working nicely and passing all tests.
+
+## 2. Refactoring
+
+--moved the database display formated strings out of the function definitions to improve readability
+--removed some arbitrary blank lines
+--made the style of braces consistent 
+
+## 3. Testing
+
+I added tests for all the public methods in the class. As they are all simple getters, there wasn't much to this.
+
+
+
